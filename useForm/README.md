@@ -9,5 +9,5 @@ const initialForm = {
   email: '',
 };
 
-const [formValues, handleInputChange, reset] = useFetch(initialForm);
+const [formValues, handleInputChange, reset] = useForm(initialForm);
 ```
